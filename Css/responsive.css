@@ -1,0 +1,276 @@
+/* Mobile Styles (up to 767px) */
+@media only screen and (max-width: 767px) {
+  
+    /* General Adjustments */
+    body {
+      font-size: 14px;
+      padding: 10px;
+      background-color: rgb(43, 42, 42);
+    }
+  
+    /* Navigation Bar */
+    .nav_sec {
+      /* flex-direction: column;
+      align-items: flex-start;
+      padding: 10px; */
+      display: none;
+    }
+  
+    .logo {
+      margin-bottom: 10px;
+    }
+  
+    .menu ul {
+      flex-direction: column;
+      padding: 0;
+      width: 100%;
+    }
+  
+    .menu ul li {
+      width: 100%;
+      text-align: left;
+    }
+  
+    .menu ul li a {
+      padding: 10px 0;
+      font-size: 16px;
+      width: 100%;
+      display: block;
+    }
+  
+    .hire_btn {
+      margin-top: 10px;
+    }
+  
+    /* Header Section */
+    .homa_ka_sec {
+      padding: 70px 10px 20px 10px; /* Adjust padding to account for fixed nav */
+    }
+  
+    .sec1_content {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+  
+    .left_side, .rightside {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .left_side h1 {
+      font-size: 47px;
+      width: 100%;
+    }
+
+    .head_btns{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .hire_btn{
+        margin: 10px 0px;
+        padding: 10px;
+    }
+    .get_cv{
+        border-radius: 3px;
+    }
+
+  
+    .social_iocns {
+      justify-content: center;
+      margin: -20px;
+    }
+  
+    .show_cards {
+      display: flex;
+      width: 80%;
+      margin: -20px;
+
+    }
+    .respon{
+        display: flex;
+        justify-content: center;
+
+    }
+  
+  
+    .zain_img {
+      /* width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      margin-top: 20px; */
+      display: none;
+    }
+  
+    /* Services Section */
+    .Services_container p {
+      font-size: 16px;
+      padding: 20px 0 5px 0;
+    }
+  
+    .multi_heading h2 {
+      font-size: 40px;
+    }
+  
+    .Services_cards {
+        display: flex;
+        align-items: center;
+        margin: 0px 0px 0px 32px;
+    }
+  
+    .card {
+      width: 80%;
+      max-width: 500px;
+      margin-bottom: 20px;
+       margin: 20px 0px 0px 0px;
+       box-shadow: none;
+    }
+  
+    .card1{
+
+        box-shadow: none;
+    }
+
+    /* About Me Section */
+    .my_about_container p {
+      font-size: 16px;
+      padding: 20px 0 5px 0;
+    }
+  
+    .multi_heading_about h2 {
+      font-size: 30px;
+    }
+  
+    .about_content {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 0;
+    }
+  
+    .about_left, .about_right {
+      width: 100%;
+    }
+  
+    .about_left img {
+      /* width: 100%;
+      max-width: 300px;
+      border-radius: 15px;
+      margin-bottom: 20px; */
+      display: none;
+    }
+  
+    .exp_edu {
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+    }
+  
+    .edu, .exp {
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 20px;
+    }
+  
+    .about_para {
+      width: 100%;
+      max-width: 90%;
+      margin: 40px 0;
+      padding: 0 10px;
+      text-align: center;
+    }
+
+    .para_res{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
+    /* Projects Section */
+    .my_project_card {
+      padding: 10px 0;
+    }
+  
+    .MY_project {
+      flex-direction: column;
+      align-items: center;
+      /* background-color: aqua;     */
+    }
+  
+    .proj_1 {
+      width: 100%;
+      max-width: 300px;
+      padding: 20px;
+    }
+    
+    .pro2{
+        margin: 20px 0px;
+    }
+  
+    .proj_1 img {
+      width: 100%;
+      max-width: 250px;
+    }
+  
+    .proj_1 h2 {
+      font-size: 24px;
+    }
+  
+    .proj_1 p {
+      font-size: 16px;
+      padding: 10px 0 20px 0;
+    }
+  
+    .project_btns {
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+  
+    /* Contact Section */
+    .contact_number {
+      flex-direction: column;
+      width: 80%;
+      /* max-width: 100%; */
+      padding: 15px;
+    }
+  
+    .contact_number div {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 15px;
+    }
+    .contact_number p{
+        font-size: 16px;
+        font-weight: 100;
+    }
+  
+    .contact_number div:last-child {
+      margin-bottom: 0;
+    }
+  
+    .contsec {
+      padding: 20px 0 50px 0;
+    }
+  
+    /* Footer */
+    .footer_menu ul {
+        display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+    }
+  
+    .footer_menu ul li a {
+      font-size: 16px;
+    }
+  
+    footer p {
+      margin: 40px 0 10px 0;
+      font-size: 14px;
+    }
+  
+  }
+  

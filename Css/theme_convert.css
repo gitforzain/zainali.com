@@ -1,0 +1,16 @@
+.light_theme{
+
+    background-color: rgba(46, 48, 16, 0.743);
+    transition: 0.5s;
+    color: var(--onemoer);
+
+}
+
+
+.filter_icon_invert{
+    filter: invert(0);
+}
+
+.back{
+    background-color: #414927;
+}
